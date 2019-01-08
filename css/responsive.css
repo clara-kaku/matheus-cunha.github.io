@@ -66,8 +66,12 @@
 
 @media screen and (max-width: 500px) {
     .container {
-        margin-right: 1rem !important;
+        /* margin-right: 1rem !important; */
         margin-left: 0 !important;
+    }
+
+    #faq-section {
+        margin-bottom: 3rem !important;
     }
 }
 

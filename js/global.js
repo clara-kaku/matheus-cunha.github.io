@@ -20,8 +20,10 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 
   // RESPONSIVE TEXTAREA
-  if($wHeight < 500) {
-    $('.form-group textarea').attr('rows', 1);
+  if($wHeight <= 600) {
+    $('#form-text').attr('rows', '1');
+  } else {
+      $('#form-text').attr('rows', '3');
   }
 });
 

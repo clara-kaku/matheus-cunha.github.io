@@ -5,6 +5,7 @@ body {
 
 section {
     width: 100vw !important;
+    max-width: 100% !important;
     min-height: 100vh;
 }
 
@@ -176,6 +177,8 @@ section {
     opacity: 1 !important;
     color:#fff;
     width: 100%;
+    word-wrap: break-word !important;
+    white-space: normal !important;
 }
 
 .ajuste-faq button:hover {
